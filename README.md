@@ -21,3 +21,10 @@ Accessible from the host machine via port mapping 8081:80.
 - Built custom Dockerfile from scratch
 - Mapped container port 80 to host port 8081
 - Verified accessibility from Windows PC browser
+### Jenkins CI/CD Pipeline
+Configured a Jenkins server that automatically detects code changes 
+on GitHub and triggers a Docker build pipeline.
+- Jenkins running on port 8080 on Ubuntu Server
+- Pipeline polls GitHub every minute for changes
+- Automatically builds Docker image on every commit
+- Full console logging of each build
