@@ -15,3 +15,9 @@ private Host Only network with upstream forwarding to Google DNS.
 - Local zone: devlab.local
 - Forward DNS: resolves server1 and server2 hostnames
 - Upstream forwarding: routes external queries to 8.8.8.8
+### Docker Containerized Web Server
+Built a custom Docker image running Nginx serving a custom HTML page.
+Accessible from the host machine via port mapping 8081:80.
+- Built custom Dockerfile from scratch
+- Mapped container port 80 to host port 8081
+- Verified accessibility from Windows PC browser
