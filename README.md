@@ -28,3 +28,14 @@ on GitHub and triggers a Docker build pipeline.
 - Pipeline polls GitHub every minute for changes
 - Automatically builds Docker image on every commit
 - Full console logging of each build
+## Phase 4 - Cloud Deployment on DigitalOcean
+
+Deployed a containerized web application to a live cloud server 
+accessible from anywhere in the world.
+
+- Provisioned a DigitalOcean Droplet running Ubuntu 24.04
+- Secured the server with UFW firewall and a non root user
+- Installed Docker on a cloud server
+- Pulled code from GitHub and built a Docker image in the cloud
+- Deployed containerized Nginx web server on port 80
+- Live URL: http://165.227.81.137
